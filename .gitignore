@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.nexa-venv/
+env/
+nexa-venv/
+ENV/
+env.bak/
+.vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# System-specific
+.DS_Store
+Thumbs.db
+
+# Python egg & packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# PyInstaller
+*.spec
+
+# MyPy / Pyre / Pytype
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Test coverage
+.coverage
+htmlcov/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Audio and media (if generated)
+*.wav
+*.mp3
+*.flac
+*.ogg
+output_audio/
+recordings/
+
+# VSCode/IDE
+.vscode/
+.idea/
+
+# macOS/Linux backup files
+*~
+*.swp
+*.swo
